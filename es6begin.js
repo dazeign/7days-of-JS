@@ -83,3 +83,5 @@ console.log("Hello, Vue! 🎉")
 // console.log(fun())
 // console.log(fun("js"))
 
+// let name = "Dylan";
+// console.log(typeof name);
