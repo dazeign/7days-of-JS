@@ -47,3 +47,43 @@ console.log(example4);//outputs 200.00
 
 //boolean
 true ,false //has to be one or the other
+
+console.log(Boolean(true)) //the boolean() value tells the value of the paramter you give it
+
+let name = "My Name";
+console.log(Boolean(name)); //outputs true because name is true because it has been declared and initialised
+
+let sample1 = false;
+let sample2 = true;
+let sample3 = null;
+let sample4 = undefined;
+let sample5 = '';
+let sample6 = NaN;
+let sample7 = -5;
+let sample8 = 0;
+let sample9 = ' ';
+
+// console.log(Boolean(example1)); //falsy
+// console.log(Boolean(example2)); //truthy
+// console.log(Boolean(example3)); //falsy
+// console.log(Boolean(example4)); //falsy
+// console.log(Boolean(example5)); //falsy
+// console.log(Boolean(example6)); //falsy
+// console.log(Boolean(example7)); //truthy 
+// console.log(Boolean(example8)); //falsy
+// console.log(Boolean(example9)); //truthy //compare with example5
+
+
+
+//Arrays
+let arrays1 = [5, 6, 7];
+
+console.log(arrays1.length) //outputs the number of values inside the array
+console.log(arrays1[0]); //to get the first index value
+
+arrays1.push(8, 9, 10);
+arrays1.pop();
+console.log(arrays1)
+
+
+
