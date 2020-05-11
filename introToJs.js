@@ -82,8 +82,8 @@ console.log(arrays1.length) //outputs the number of values inside the array
 console.log(arrays1[0]); //to get the first index value
 
 arrays1.push(8, 9, 10);
-arrays1.pop();
+arrays1.pop(); //removes the last value of the array
 console.log(arrays1)
 
-
+arrays1.forEach
 
