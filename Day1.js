@@ -96,6 +96,24 @@ let challenge3A = challenge3;
 
 challenge3A.push(11);
 
-console.log(challenge3);
-console.log(challenge3A);
-console.log()
+console.log(challenge3); //this outputs the same as challenge 3A because when u initailise two variables, you're saying both are going to be doing the same thing... (passing by reference)
+console.log(challenge3A); //passing by reference, it is not creating a new array
+
+//ways not to pass by reference:
+let challenge3B = ['Dylan', 5, true];
+
+let challenge3c = [...challenge3B]; //spread operator
+
+//or
+
+challenge3c = challenge3B.map((element) => {
+    return element;
+}) 
+
+challenge3c.push(11);
+
+//most times you'd want to create a new array tho
+console.log(challenge3B); //this outputs the same as challenge 3A because when u initailise two variables, you're saying both are going to be doing the same thing... (passing by reference)
+console.log(challenge3c);
+
+
