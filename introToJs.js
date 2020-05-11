@@ -1,3 +1,4 @@
+
 let firstName = 'Frankie';
 let lastName = 'Ani';
 
@@ -19,3 +20,4 @@ console.log(`${firstName} ${lastName}`.split(''));
 //.split('') outputs each single letter as an argument in an array
 //.split(' ') outputs each string as an argument in an array
 //.length .split() .trim() are called string methods
+ 
