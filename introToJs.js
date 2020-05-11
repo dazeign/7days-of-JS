@@ -85,5 +85,17 @@ arrays1.push(8, 9, 10);
 arrays1.pop(); //removes the last value of the array
 console.log(arrays1)
 
-arrays1.forEach
+arrays1.forEach((element) => {
+    console.log(element)
+});//this will iterate through the array an display each of them as output one after the other
 
+
+let challenge3 = ['Dylan', 5, true];
+
+let challenge3A = challenge3;
+
+challenge3A.push(11);
+
+console.log(challenge3);
+console.log(challenge3A);
+console.log()
