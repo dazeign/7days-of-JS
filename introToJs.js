@@ -42,4 +42,8 @@ let example4 = 200.0.toFixed(2);
 console.log(example1);//if your string start with a number, parse will pull out the first number. If not it will throw in NaN
 console.log(example2);//in this case, parseFloat will show the floating value of this string's first number
 console.log(example3);//nb: toFixed outputs a string value. use typeof to be confirm
-console.log(example4);
+console.log(example4);//outputs 200.00
+
+
+//boolean
+true ,false //has to be one or the other
