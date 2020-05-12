@@ -18,3 +18,8 @@ console.log(arith1 == arith2);
 console.log(arith1 === arith2);
 
 //challenge
+let arithChallenge1 = 5 === 5; //truthy
+let arithChallenge2 = 5 == '5'; //truthy
+let arithChallenge3 = 6 != '6'; //falsy
+let arithChallenge4 = 7 !== '7'; //truthy
+
