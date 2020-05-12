@@ -23,3 +23,8 @@ let arithChallenge2 = 5 == '5'; //truthy
 let arithChallenge3 = 6 != '6'; //falsy
 let arithChallenge4 = 7 !== '7'; //truthy
 
+
+
+//increment and decrement
+ let increment = 1;
+ let
