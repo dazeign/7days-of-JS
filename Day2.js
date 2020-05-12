@@ -40,3 +40,10 @@ object4.lastName = 'Israel';
 // object4.lastName.age = 34; (will throw an error because you can only add a value to the variable u named)
 console.log(object3); //{firstName: 'Dylan', lastName: 'Israel'}
 console.log(object4); //{firstName: 'Dylan', lastName: 'Israel'}
+
+//in line 36 (let object4 = object3) it is also passed by reference
+//to revert this, we can use the object method
+
+object4 = Object.assign({}, object3); //add into the code block above with (let)
+
+
