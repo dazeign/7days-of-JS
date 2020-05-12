@@ -27,3 +27,13 @@ let arithChallenge4 = 7 !== '7'; //truthy
 
 //increment and decrement
 let increment = 1;
+
+increment++;//let increment = increment + 1; 
+
+console.log(increment);
+
+let solve = 1;
+
+solve += 5;
+
+
