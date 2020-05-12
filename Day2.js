@@ -28,7 +28,6 @@ console.log(Object.values(object2));//to output all values
 console.log(object2.hasOwnProperty('age'));//returns boolean to find if a particular key is in our object
 
 
-
 //objects Challenge
 let object3 = {
     firstName: 'Dylan'
