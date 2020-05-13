@@ -119,4 +119,8 @@ for (let i = 0; i < numArray.length; i++) {
     total += numArray[i];
 }
 
-console.log(total);
+console.log(total); //remember to read more about this later
+
+
+
+//do and while loops
