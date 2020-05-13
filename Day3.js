@@ -50,4 +50,57 @@ if (stateMent === 6) { // will run if the condition is true, in this case, it's 
 } else {
     console.log('else'); //then it falls back to this
 }
-//
+//there caan be nested
+
+//And & Or
+
+let andOr = 5;
+if (andOr == 5 && andOr ===5 ) { // will run only because both are true 
+    console.log('Yeah')
+}
+
+let orAnd = 5;
+if (orAnd == 6 || orAnd == 5) { //will run because one of both is true
+    console.log('Yeah MAn!')
+}
+
+//&& and || help us to concatenate values
+
+
+//challenge
+
+console.log(10 === 10 && 5 < 4); //false
+
+console.log(10 === 10 || 5 < 4); // true
+console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5); //true
+
+
+//switch statements
+let studentAnswer = 'C';
+
+switch(studentAnswer) { //master the syntax, it does the command of the case given 
+    case 'A': 
+        console.log('A is wrong.');
+        break;
+    case 'B' :
+        console.log('B is wrong.');
+        break;
+    case 'C':
+        console.log('C is correct.');
+        break;
+}
+
+let toothPick = 'red';
+let book = 'brown';
+
+switch (toothPick, book) {
+    case 'red':
+        console.log('You choose the colour of the toothpick');
+                
+        break;
+
+    case 'brown':
+        console.log('You choose the colour of the book');
+        
+        break;
+}
