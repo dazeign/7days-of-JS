@@ -34,6 +34,6 @@ console.log(increment);
 
 let solve = 1;
 
-solve += 5;
+solve += 5; //solve = solve + 1; ypu can use all other arithmetic operators
 
-
+console.log(solve);
