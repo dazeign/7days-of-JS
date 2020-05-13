@@ -34,6 +34,20 @@ console.log(increment);
 
 let solve = 1;
 
-solve += 5; //solve = solve + 1; ypu can use all other arithmetic operators
+solve += 5; //solve = solve + 1; you can use all other arithmetic operators
 
 console.log(solve);
+
+
+//if, else if 
+
+let stateMent = 5;
+
+if (stateMent === 6) { // will run if the condition is true, in this case, it's false
+    console.log('Runs');
+} else if ( false ) { //or else try this if statement (thats what an ELSE IF says)
+    console.log('else if');
+} else {
+    console.log('else'); //then it falls back to this
+}
+//
