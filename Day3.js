@@ -88,9 +88,12 @@ switch(studentAnswer) { //master the syntax, it does the command of the case giv
     case 'C':
         console.log('C is correct.');
         break;
+    default:
+        console.log('None');
+        break; //this is what the switch statement falls back to if none are correct
 }
 
-let toothPick = 'red';
+/*let toothPick = 'red';
 let book = 'brown';
 
 switch (toothPick, book) {
@@ -103,4 +106,17 @@ switch (toothPick, book) {
         console.log('You choose the colour of the book');
         
         break;
+}*/ //rough work
+
+//for loops
+
+let total = 0;
+
+let numArray = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+
+for (let i = 0; i < numArray.length; i++) {
+    
+    total += numArray[i];
 }
+
+console.log(total);
