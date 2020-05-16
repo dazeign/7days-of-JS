@@ -1,12 +1,8 @@
-function func () {
-    console.log('add fuction');
-}
-func();
+console.log(document.domain); //displays the domain name in the console
+console.log(document.URL); //displays the URL in the console
+console.log(document.title); //displays the title given to the document
 
-function add(num1, num2) {
-    return num1 + num2;
-}
+document.title = "Changes the title of your html";
+console.log(document.title); //displays the title in the console
 
-console.log(add(10, 6));
-console.log(add(15, 7));
-console.log(add(20,2));
+document.body = "Hello World";
