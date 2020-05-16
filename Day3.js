@@ -124,3 +124,4 @@ console.log(total); //remember to read more about this later
 
 
 //do and while loops
+
