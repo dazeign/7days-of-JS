@@ -124,4 +124,15 @@ console.log(total); //remember to read more about this later
 
 
 //do and while loops
+let count = 0;
 
+do {
+    count++;
+    
+    if(count === 'Dylan') {
+        break;
+    }
+}
+while (false)
+
+console.log(count); //Read more about while loops also
