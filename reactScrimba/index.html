@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React By Scrimba</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+
+ <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    
+    <script type="text/babel">
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+
+    function MyInfo(){
+        return(
+            <div>
+                <h1>Daze</h1>
+
+                <p>Hi guys, welcome to my first time on learning react. 
+                I will be  learning this slow paced as I want
+                to take react to the next level. Some places that I would love 
+                to visit are:
+                    </p>
+                <ul>
+                    <li>Canada</li>
+                    <li>Germany</li>
+                    <li>Spain</li>
+                </ul> 
+            </div>
+        )
+    }
+ 
+ReactDOM.render(
+    <MyInfo/>, document.getElementById("root")
+)
+    </script>
+    
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</body>
+</html>
