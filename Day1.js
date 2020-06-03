@@ -26,6 +26,7 @@ console.log(typeof firstName); //typeof will tell you the data type
 
 
 
+
 //numbers
 let example = 21.5;
 
@@ -43,7 +44,6 @@ console.log(example1);//if your string start with a number, parse will pull out 
 console.log(example2);//in this case, parseFloat will show the floating value of this string's first number
 console.log(example3);//nb: toFixed outputs a string value. use typeof to be confirm
 console.log(example4);//outputs 200.00
-
 
 //boolean
 true ,false //has to be one or the other
@@ -63,15 +63,15 @@ let sample7 = -5;
 let sample8 = 0;
 let sample9 = ' ';
 
-// console.log(Boolean(example1)); //falsy
-// console.log(Boolean(example2)); //truthy
-// console.log(Boolean(example3)); //falsy
-// console.log(Boolean(example4)); //falsy
-// console.log(Boolean(example5)); //falsy
-// console.log(Boolean(example6)); //falsy
-// console.log(Boolean(example7)); //truthy 
-// console.log(Boolean(example8)); //falsy
-// console.log(Boolean(example9)); //truthy //compare with example5
+// console.log(Boolean(sample1)); //falsy
+// console.log(Boolean(sample2)); //truthy
+// console.log(Boolean(sample3)); //falsy
+// console.log(Boolean(sample4)); //falsy
+// console.log(Boolean(sample5)); //falsy
+// console.log(Boolean(sample6)); //falsy
+// console.log(Boolean(sample7)); //truthy 
+// console.log(Boolean(sample8)); //falsy
+// console.log(Boolean(sample9)); //truthy //compare with example5
 
 
 
@@ -81,7 +81,7 @@ let arrays1 = [5, 6, 7];
 console.log(arrays1.length) //outputs the number of values inside the array
 console.log(arrays1[0]); //to get the first index value
 
-arrays1.push(8, 9, 10);
+arrays1.push(8, 9, 10);//adds all the values to the end of the array
 arrays1.pop(); //removes the last value of the array
 console.log(arrays1)
 
